@@ -10,7 +10,7 @@ dependencies = ["ipykernel>=6.29.5", "jupyter>=1.1.1"]
 dev = [
     "pylance>=0.24.1",
     "basedpyright>=1.32.1",
-    "pytest>=8.3.3",
+    "pytest>=9.0.3",
     "mypy>=1.16.1",
     "ruff>=0.12.3",
     "vulture>=2.14",
