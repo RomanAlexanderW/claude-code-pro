@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=84.1.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
@@ -16,7 +16,7 @@ dependencies = [
     "platformdirs>=4.3.6",
     "cryptography>=48.0.1",
     "Cython>=3.0.0",
-    "setuptools>=61.0",
+    "setuptools>=84.1.0",
     "PyYAML>=6.0",
 ]
 
@@ -24,7 +24,7 @@ dependencies = [
 dev = [
     "basedpyright>=1.32.1",
     "ruff>=0.12.3",
-    "pytest>=8.3.3",
+    "pytest>=9.2.0",
     "pytest-cov>=7.0.0",
     "pytest-asyncio>=0.24.0",
     "vulture>=2.14",
